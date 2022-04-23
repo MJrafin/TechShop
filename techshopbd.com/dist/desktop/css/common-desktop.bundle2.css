@@ -18138,16 +18138,28 @@ body ::placeholder {
     border: none;
 }
 .header-section .user .user-login .icon-wrapper {
-    border: 1px solid #f2f2f2;
-    padding: 0.75em 1em;
-    border-radius: 50% 50% 50% 50%;
+    border: 1px solid  #206eb0;
+    padding: 0.75em 0.75em 0.75em 0.75em;
+    /* border-radius: 50% 50% 50% 50%; */
     display: inline-block;
 }
 .header-section .user .user-login span {
     font-family: raleway-semibold;
-    color: #333;
-    padding-left: 0.325em;
+    color:  #206eb0;
+    border: 1px solid  #206eb0;
+    /* padding-left: 0.325em; */
+    padding: 0.75em 0.75em 0.75em 0.75em;
+    color:  #f2f2f2;
+    background-color: #206eb0;
 }
+
+.header-section .user .user-login span:hover {
+   
+    color:  #206eb0;
+    background-color: white;
+
+}
+
 .header-section .navbar-section {
     margin: 5.5em 0 -1.5em;
     background-color: #247cc6;
@@ -18916,7 +18928,7 @@ body ::placeholder {
     font-size: 0.9rem;
 }
 .product-list-wrapper .product-list-item .item .product-btn-wrapper a.btn-view-details:hover {
-    background-color: #a3a3a3;
+    background-color: #247cc6;
 }
 .small-banner-wrapper {
     background-color: #fff;
