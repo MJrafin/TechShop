@@ -14191,7 +14191,7 @@ a.close.disabled {
     position: relative;
     display: none;
     float: left;
-    height: 600px;
+    height: 612px;
     width: 100%;
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
@@ -17897,7 +17897,7 @@ body ::placeholder {
 .header-section .search-input .input-group #shipping .address-section .card-body form .form-inline .select-area .dropdown-toggle-area,
 .header-section .search-input .input-group #shipping .address-section .card-body form .form-inline .select-city .dropdown-toggle-city,
 .header-section .search-input .input-group .form-control {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 20px 20px 20px 20px;
     outline: none;
     box-shadow: none;
     font-size: 0.8125rem;
@@ -17906,12 +17906,12 @@ body ::placeholder {
 }
 .header-section .search-input .input-group .btn-search {
     color: #fff;
-    background-color: #fd9812;
+    background-color: #c6247e;
     font-family: raleway-semibold;
     border: none;
     box-shadow: none;
     cursor: pointer;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 20px 20px 20px 20px;
     transition: all 0.5s ease;
     padding: 0.375em 2.5em;
     position: relative;
@@ -17919,7 +17919,7 @@ body ::placeholder {
     z-index: 1050;
 }
 .header-section .search-input .input-group .btn-search:hover {
-    background-color: #f38c02;
+    background-color: #8b1958;
 }
 .header-section .search-input .input-group .btn-search .fa-search {
     font-size: 1.2em;
@@ -18148,9 +18148,11 @@ body ::placeholder {
     color:  #206eb0;
     border: 1px solid  #206eb0;
     /* padding-left: 0.325em; */
-    padding: 0.75em 0.75em 0.75em 0.75em;
+    padding: 0.75em;
     color:  #f2f2f2;
     background-color: #206eb0;
+    transition: all 0.5s ease;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .header-section .user .user-login span:hover {
@@ -18376,7 +18378,7 @@ body ::placeholder {
  */
 .help-section {
     padding: 2.5em 0;
-    background-color: #f7f7f7;
+    background-color: #247cc6;
 }
 .help-section .media img {
     margin-top: 0.325em;
@@ -18386,11 +18388,12 @@ body ::placeholder {
 }
 .help-section .media-body .title {
     font-family: lato-bold;
-    color: #333;
+    color: #f2f2f2;
     font-size: 0.875rem;
 }
 .help-section .media-body .small {
     font-family: lato-regular;
+    color: #f2f2f2;
 } /*!
  * Copyright (c), Onnorokom Web Services Ltd (OWSL) and/or its affiliates. All rights reserved.
  * OWSL PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
@@ -18595,12 +18598,12 @@ body ::placeholder {
     transition: all 0.5s ease;
 }
 .my-section-menubar .list-group-item.active {
-    color: #fd9a17;
+    color: #c66f24;
     background-color: #fff0dc;
     border: 1px solid #ddd;
 }
 .my-section-menubar .list-group-item:hover {
-    color: #fd9812;
+    color: #c66f24;
 } /*!
  * Copyright (c), Onnorokom Web Services Ltd (OWSL) and/or its affiliates. All rights reserved.
  * OWSL PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
@@ -18632,13 +18635,13 @@ body ::placeholder {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #fdae45;
+    background-color: #4d2ec6;
 }
 .home-content .carousel-indicators li:first-child {
     margin-left: 0;
 }
 .home-content .carousel-indicators li.active {
-    background-color: #fd9812;
+    background-color: #36208b;
 }
 .home-content .carousel-item img {
     border-radius: 8px 8px 8px 8px;
@@ -22702,7 +22705,7 @@ body ::placeholder {
     background-color: #247cc6;
 }
 #login .card .banner-section .carousel-inner .carousel-item {
-    height: 844px;
+    height: 850px;
 }
 #login .card .login-section .nav-tabs {
     margin: 1.5em 10em;
