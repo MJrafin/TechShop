@@ -18146,11 +18146,11 @@ body ::placeholder {
 .header-section .user .user-login span {
     font-family: raleway-semibold;
     color:  #206eb0;
-    border: 1px solid  #206eb0;
+    border: 1px solid  #8b1958;
     /* padding-left: 0.325em; */
     padding: 0.75em;
     color:  #f2f2f2;
-    background-color: #206eb0;
+    background-color: #c6247e;
     transition: all 0.5s ease;
     border-radius: 5px 5px 5px 5px;
 }
@@ -18164,8 +18164,8 @@ body ::placeholder {
 
 .header-section .navbar-section {
     margin: 5.5em 0 -1.5em;
-    background-color: #247cc6;
-    border-bottom: 2px solid #206eb0;
+    background-color: #c6247e;
+    border-bottom: 2px solid #8b1958;
     height: 52px;
 }
 .header-section .navbar-section .navbar .navbar-nav {
@@ -18178,10 +18178,10 @@ body ::placeholder {
     background-color: #fff;
     margin: -0.875em 0 -0.5em;
     padding-top: 0.675em;
-    border-top: 3px solid #fd9812;
+    border-top: 3px solid #c6af24;
 }
 .header-section .navbar-section .navbar .navbar-nav .nav-item.active .nav-link {
-    color: #fd9812;
+    color: #c6af24;
 }
 .header-section .navbar-section .navbar .navbar-nav .nav-item .nav-link {
     color: #fff;
@@ -18191,7 +18191,7 @@ body ::placeholder {
     transition: all 0.5s ease;
 }
 .header-section .navbar-section .navbar .navbar-nav .nav-item .nav-link:hover {
-    color: #fd9812;
+    color: #c6af24;
 }
 .header-section .navbar-section .navbar .navbar-nav .nav-item .header-category {
     position: relative;
@@ -18213,7 +18213,7 @@ body ::placeholder {
     margin-right: 0.625em;
 }
 .header-section .navbar-section .navbar .navbar-nav .nav-item .header-category button:hover {
-    color: #fd9812;
+    color: #c6af24;
 }
 .header-section .navbar-section .navbar .navbar-nav .nav-item .header-category .header-category-list {
     position: absolute;

@@ -20055,7 +20055,7 @@
           a.forEach(function (t) {
               return t.addEventListener("mouseenter", function () {
                   var e = t.closest(".js--product-item").childNodes[1].childNodes[1];
-                  (e.style.opacity = "0.2"), (e.style.boxShadow = "0px 3px 15px 1px rgba(0, 0, 0, 0.25)"), (e.style.transform = "scaleX(1.15) scaleY(1.05)");
+                  (e.style.opacity = "0.2"), (e.style.boxShadow = "0px 3px 15px 1px rgba(0, 0, 0, 0.25)"), (e.style.transform = " translateY(10px) translateX(1px)");
               });
           }),
               a.forEach(function (t) {
@@ -20066,7 +20066,7 @@
               }),
               r.forEach(function (t) {
                   return t.addEventListener("mouseenter", function () {
-                      (t.style.opacity = "0.2"), (t.style.boxShadow = "0px 3px 15px 1px rgba(0, 0, 0, 0.25)"), (t.style.transform = "scaleX(1.15) scaleY(1.05)");
+                      (t.style.opacity = "0.2"), (t.style.boxShadow = "0px 3px 15px 1px rgba(0, 0, 0, 0.25)"), (t.style.transform = "translateY(10px) translateX(1px)");
                   });
               }),
               r.forEach(function (t) {
